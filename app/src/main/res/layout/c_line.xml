@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:padding="10dp" >
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="10dp" >
+
+		<TextView
+			android:id="@+id/TextView04"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="C Line 1:"
+			android:textAppearance="?android:attr/textAppearanceMedium" />
+
+		<EditText
+			android:id="@+id/etCline1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:ems="10" >
+
+			<requestFocus />
+		</EditText>
+	</LinearLayout>
+
+	<View
+		android:id="@+id/View01"
+		android:layout_width="wrap_content"
+		android:layout_height="1dp"
+		android:background="@drawable/dividergradient" />
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="10dp" >
+
+		<TextView
+			android:id="@+id/TextView03"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="C Line 2:"
+			android:textAppearance="?android:attr/textAppearanceMedium" />
+
+		<EditText
+			android:id="@+id/etCline2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:ems="10"
+			android:hint="Optional" >
+		</EditText>
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="10dp" >
+
+		<TextView
+			android:id="@+id/TextView02"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="C Line 3:"
+			android:textAppearance="?android:attr/textAppearanceMedium" />
+
+		<EditText
+			android:id="@+id/etCline3"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:ems="10"
+			android:hint="Optional" />
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="10dp" >
+
+		<TextView
+			android:id="@+id/TextView01"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="C Line 4:"
+			android:textAppearance="?android:attr/textAppearanceMedium" />
+
+		<EditText
+			android:id="@+id/etCline4"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:ems="10"
+			android:hint="Optional" />
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="10dp" >
+
+		<TextView
+			android:id="@+id/textView2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="C Line 5:"
+			android:textAppearance="?android:attr/textAppearanceMedium" />
+
+		<EditText
+			android:id="@+id/etCline5"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:ems="10"
+			android:hint="Optional" />
+	</LinearLayout>
+
+	<View
+		android:id="@+id/view1"
+		android:layout_width="wrap_content"
+		android:layout_height="2dp"
+		android:background="@drawable/dividergradient" />
+
+	<Button
+		android:id="@+id/btnOkCline"
+		android:layout_width="100dp"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:text="OK" />
+
+</LinearLayout>

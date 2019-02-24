@@ -1,0 +1,27 @@
+<resources>
+
+    <string name="app_name">Persian Grandeur</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Persian Grandeur</string>
+    <string name="Download_Emulator_Note">First You Should Download Emulators from [Download Manager 4.0] Then Activate Them Here.</string>
+    <string name="Enable_Start">Enable-Start</string>
+    <string name="Disable_Stop">Disable-Stop</string>
+	<string name="Read_Before_Do_Anything">All ttf Fonts Should Be In /usr/share/fonts/\nIf
+	You See Crash , Don\'t Panic\nUse Persian Grandeur Android App\nFrom
+	Backup/Restore Choose Restore Skin.XML Backup\nOr Wait For Auto Repair
+	(2 Minutes)</string>
+	<string name="Build_Date">2014/02/21</string>
+	<string name="Check_for_Update">Check for Update</string>
+	<string name="BissKeyTitle">Enter BISS key for current channel:</string>
+	
+	<string name="AudioPIDDescHex">Enter HEX Audio PID For Current Channel:</string>
+	<string name="AudioPIDDescDecimal">Enter Decimal Audio PID For Current Channel:</string>
+	<string name="VideoPIDDescHex">Enter HEX Video PID For Current Channel:</string>
+	<string name="VideoPIDDescDecimal">Enter Decimal Video PID For Current Channel:</string>
+	
+	<string name="AudioPIDTitleHex">Audio PID Changer (HEX)</string>
+	<string name="AudioPIDTitleDecimal">Audio PID Changer (Decimal)</string>
+	<string name="VideoPIDTitleHex">Video PID Changer (HEX)</string>
+	<string name="VideoPIDTitleDecimal">Video PID Changer (Decimal)</string>
+	<string name="ReleaseNotes">ChangeLogs</string>
+</resources>

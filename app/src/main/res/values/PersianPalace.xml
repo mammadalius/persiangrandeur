@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="PersianPalace">
+        <item>1. Tools</item>
+        <item>-2. Backup/Restore</item>
+        <item>-3. Emulator Manager</item>
+        <item>4. Keys - Softcam Downloader</item>
+        <item>-5. Channels - Settings Downloader</item>
+        <item>6. Cables - Satellites - Terrestrial XML Downloader</item>
+        <item>-7. Cleaner</item>
+        <item>8. Installer</item>
+        <item>9. Extractor - Converter</item>
+        <item>-10. Software - Hardware Information</item>
+        <item>-11. Font Changer</item>
+        <item>12. Persian Empire Enigma2 Image (Tweaks-Fixes)</item>
+    </string-array>
+    <string-array name="Tools">
+        <item>1. CHMOD Changer</item>
+        <item>-2. Swap Manager</item>
+        <item>3. Update Modules</item>
+        <item>4. Partition Manager</item>
+        <item>5. IPK Server Manager</item>
+        <item>-6. Picon Path Manager</item>
+        <item>7. Plugin Path Manager</item>
+        <item>8. Timeshift Path Manager</item>
+        <item>-9. MAC Address Changer</item>
+        <item>10. Time Update (Requires Internet)</item>
+        <item>11. OPKG Update + Upgrade (Requires Internet)</item>
+    </string-array>
+    <string-array name="CHMOD">
+        <item>1. CHMOD 644</item>
+        <item>2. CHMOD 755</item>
+    </string-array>
+    <string-array name="Swap_Manager">
+        <item>1. Swap (Enable)</item>
+        <item>2. Swap (Disable)</item>
+    </string-array>
+    <string-array name="Partition_Manager">
+        <item>1. Mount - USB</item>
+        <item>2. Mount - HDD</item>
+        <item>3. Format - USB</item>
+        <item>4. Format - HDD</item>
+        <item>5. UnMount - USB</item>
+        <item>6. Unmount - HDD</item>
+    </string-array>
+    <string-array name="Format_USB">
+        <item>1. Format - USB (ext2)</item>
+        <item>2. Format - USB (ext3)</item>
+        <item>3. Format - USB (ext4)</item>
+    </string-array>
+    <string-array name="Format_HDD">
+        <item>1. Format - USB (ext2)</item>
+        <item>2. Format - USB (ext3)</item>
+        <item>3. Format - USB (ext4)</item>
+    </string-array>
+    <string-array name="IPK_Server_Manager">
+        <item>1. Size Check </item>
+        <item>2. MD5 Sum Check</item>
+        <item>3. IPK Server - USB</item>
+        <item>4. IPK Server - HDD</item>
+    </string-array>
+    <string-array name="Picon_Path_Manager">
+        <item>1. Picon - USB</item>
+        <item>2. Picon - HDD</item>
+    </string-array>
+    <string-array name="Plugin_Path_Manager">
+        <item>1. Plugin - USB (Install)</item>
+        <item>2. Plugin - HDD (Install)</item>
+        <item>3. Plugin - USB (UnInstall)</item>
+        <item>4. Plugin - HDD (UnInstall)</item>
+    </string-array>
+    <string-array name="Timeshift_Path_Manager">
+        <item>1. Timeshift - USB (Install)</item>
+        <item>2. Timeshift - USB (UnInstall)</item>
+    </string-array>
+    <string-array name="MAC_Address_Changer">
+        <item>1. Custom MAC Address</item>
+        <item>2. Custom MAC Address Remover</item>
+    </string-array>
+    <string-array name="Backup_Restore">
+        <item>1. Plugins</item>
+        <item>2. Skins-Picons</item>
+        <item>3. Go Default Skin</item>
+        <item>4. CCcam Settings</item>
+        <item>5. Enigma2 Settings</item>
+        <item>6. Restore Skin.XML Backup</item>
+        <item>7. Restore LameDB (Channels) Backup</item>
+        <item>-8. DropBox Online Backup/Restore</item>
+    </string-array>
+    <string-array name="Plugins">
+        <item>1. Restore Plugins</item>
+        <item>2. Backup Plugins - USB</item>
+        <item>3. Backup Plugins - HDD</item>
+    </string-array>
+    <string-array name="Skins_Picons">
+        <item>1. Restore Skins-Picons</item>
+        <item>2. Restore Skins-Picons - USB</item>
+        <item>3. Restore Skins-Picons - HDD</item>
+    </string-array>
+    <string-array name="CCcam_Settings">
+        <item>1. Restore CCcam Settings</item>
+        <item>2. Backup CCcam Settings - USB</item>
+        <item>3. Backup CCcam Settings - HDD</item>
+        <item>4. Backup CCcam Settings with Date - USB</item>
+        <item>5. Backup CCcam Settings with Date - HDD</item>
+    </string-array>
+    <string-array name="Enigma2_Settings">
+        <item>1. Restore Enigma2 Settings</item>
+        <item>2. Restore Enigma2 Settings - USB</item>
+        <item>3. Restore Enigma2 Settings - HDD</item>
+        <item>4. Restore Enigma2 Settings with Date - USB</item>
+        <item>5. Restore Enigma2 Settings with Date - HDD</item>
+    </string-array>
+    <string-array name="DropBox_Online_Backup_Restore">
+        <item>1. Setup DropBox Account</item>
+        <item>2. Use DropBox</item>
+    </string-array>
+    <string-array name="Setup_DropBox_Account">
+        <item>1. Enter App key - Stage 1</item>
+        <item>2. Enter App secret - Stage 2</item>
+        <item>3. DropBox Install - Stage 3 (After App key/secret)</item>
+        <item>-4. DropBox UnInstall</item>
+    </string-array>
+    <string-array name="Use_DropBox">
+        <item>1. Backup CCcam Settings On DropBox</item>
+        <item>2. Restore CCcam Settings From DropBox</item>
+        <item>-3. Backup Enigma2 Settings On DropBox</item>
+        <item>4. Restore Enigma2 Settings From DropBox</item>
+    </string-array>
+    <string-array name="Emulator_Manager">
+        <item>1. Old Cams</item>
+        <item>2. Multi Cams</item>
+        <item>3. GBox Cams</item>
+        <item>4. Single Cams</item>
+        <item>5. Original Cams</item>
+        <item>6. Twin Cams (Dongle)</item>
+    </string-array>
+    <string-array name="Old_Cams">
+        <item>1. Rq Cams</item>
+        <item>-2. MBox</item>
+        <item>3. MPCS</item>        
+        <item>4. NCam</item>        
+        <item>5. Camd3</item>
+        <item>6. VizCam</item>
+        <item>7. FireCam</item>
+        <item>8. EvoCamd</item>
+        <item>9. OpenCam</item>
+        <item>10. HyperCam</item>
+        <item>11. AvatarCam</item>
+        <item>12. SPCS NassCamd</item>
+    </string-array>
+    <string-array name="Old_Cams_Versions">
+        <item>Rq Cams</item>
+        <item>MBox 0.6-0010</item>
+        <item>MPCS 0.52.0</item>
+        <item>NCam 0.3</item>
+        <item>Camd3 3.908L</item>
+        <item>VizCam 1.12</item>
+        <item>FireCam 0.1</item>
+        <item>EvoCamd 2.17c</item>
+        <item>OpenCam 2.1.1</item>
+        <item>HyperCam 3.10 Lite</item>
+        <item>AvatarCam 0.1</item>
+        <item>SPCS NassCamd 2.6.17</item>
+    </string-array>
+    <string-array name="Rq_Cams">
+        <item>1. RqCS</item>
+        <item>2. RqSSSP</item>
+        <item>3. RqCamd</item>
+        <item>4. Rq Echo Client</item>
+    </string-array>
+    <string-array name="Rq_Cams_Versions">
+        <item>RqCS 1.11</item>
+        <item>RqSSSP 1.04</item>
+        <item>RqCamd 1.31</item>
+        <item>Rq Echo Client 1.06</item>
+    </string-array>
+    <string-array name="Multi_Cams">
+        <item>1. RqCS (Requires CCcam)</item>
+        <item>2. ScEmu (Requires CCcam)</item>
+        <item>3. MgCamd (Requires CCcam)</item>
+        <item>4. SBox (Requires CCcam, MgCamd)</item>
+        <item>5. OSCam (Requires CCcam, MgCamd, SBox)</item>
+        <item>6. DOSCam (Requires CCcam,MgCamd,SBox)</item>
+        <item>7. OSCam YMod (Requires CCcam, MgCamd, SBox)</item>
+        <item>8. OSCam HDSC (Requires CCcam,MgCamd,SBox)</item>
+        <item>9. NewCS (Requires Camd3, CCcam, EvoCamd, Mbox, MgCamd)</item>
+    </string-array>
+    <string-array name="Multi_Cams_Vresions">
+        <item>RqCS 1.11 + CCcam 2.3.0</item>
+        <item>ScEmu 1.8 + CCcam 2.3.0</item>
+        <item>MgCamd 1.38c + CCcam 2.3.0</item>
+        <item>SBox</item>
+        <item>OSCam</item>
+        <item>OSCam</item>
+        <item>NewCS</item>
+    </string-array>
+    <string-array name="SBox_Requires_CCcam_and_MgCamd">
+        <item>1. SBox + CCcam</item>
+        <item>2. SBox + MgCamd</item>
+    </string-array>
+    <string-array name="MultiCams_SBox_Version">
+        <item>SBox 0.0.5-4-4 + CCcam 2.3.0</item>
+        <item>SBox 0.0.5-4-4 + MgCamd 1.38c</item>
+    </string-array>
+    <string-array name="OSCam_Requires_CCcam_and_MgCamd_and_SBox">
+        <item>1. OSCam + SBox</item>
+        <item>2. OSCam + CCcam</item>
+        <item>3. OSCam + WiCard</item>
+        <item>4. OSCam + MgCamd</item>
+    </string-array>
+    <string-array name="Multicams_OSCam_Version">
+        <item>OSCam 1.20 + SBox 0.0.5-4-4</item>
+        <item>OSCam 1.20 + CCcam 2.3.0</item>
+        <item>OSCam 1.20 + WiCard 1.15</item>
+        <item>OSCam 1.20 + MgCamd 1.38c</item>
+    </string-array>
+    <string-array name="DOSCam_Requires_CCcam_and_MgCamd_and_SBox">
+        <item>1. DOSCam + SBox</item>
+        <item>2. DOSCam + CCcam</item>
+        <item>3. DOSCam + WiCard</item>
+        <item>4. DOSCam + MgCamd</item>
+    </string-array>
+    <string-array name="Multicams_DOSCam_Version">
+        <item>DOSCam 0.19 + SBox 0.0.5-4-4</item>
+        <item>DOSCam 0.19 + CCcam 2.3.0</item>
+        <item>DOSCam 0.19 + WiCard 1.15</item>
+        <item>DOSCam 0.19 + MgCamd 1.38c</item>
+    </string-array>
+    <string-array name="OSCam_YMod_Requires_CCcam_and_MgCamd_and_SBox">
+        <item>1. OSCam YMod + SBox</item>
+        <item>2. OSCam YMod + CCcam</item>
+        <item>2. OSCam YMod + WiCard</item>
+        <item>3. OSCam YMod + MgCamd</item>
+    </string-array>
+    <string-array name="MultiCams_OSCam_YMod_Version">
+        <item>OSCam YMod V18T50 + SBox 0.0.5-4-4</item>
+        <item>OSCam YMod V18T50 + CCcam 2.3.0</item>
+        <item>OSCam YMod V18T50 + WiCard 1.15</item>
+        <item>OSCam YMod V18T50 + MgCamd 1.38c</item>
+    </string-array>
+     <string-array name="OSCam_HDSC_Requires_CCcam_MgCamd_SBox">
+        <item>1. OSCam HDSC + SBox</item>
+        <item>2. OSCam HDSC + CCcam</item>
+        <item>3. OSCam HDSC + WiCard</item>
+        <item>3. OSCam HDSC + MgCamd</item>
+    </string-array>
+     <string-array name="MultiCams_OSCam_HDSC_Version">
+        <item>OSCam HDSC 60 + SBox 0.0.5-4-4</item>
+        <item>OSCam HDSC 60 + CCcam 2.3.0</item>
+        <item>OSCam HDSC 60 + WiCard 1.15</item>
+        <item>OSCam HDSC 60 + MgCamd 1.38c</item>
+    </string-array>
+    <string-array name="NewCS_Requires_Camd3_and_CCcam_and_EvoCamd_and_Mbox_and_MgCamd">
+        <item>1. NewCS + MBox</item>
+        <item>2. NewCS + Camd3</item>
+        <item>3. NewCS + CCcam</item>
+        <item>4. NewCS + MgCamd</item>
+        <item>5. NewCS + EvoCamd</item>
+    </string-array>
+    <string-array name="MultiCams_NewCS_Version">
+        <item>NewCS 1.71 + MBox 0.6–0010</item>
+        <item>NewCS 1.71 + Camd 3.908L</item>
+        <item>NewCS 1.71 + CCcam 2.3.0</item>
+        <item>NewCS 1.71 + MgCamd 1.38c</item>
+        <item>NewCS 1.71 + EvoCamd 2.17c</item>
+    </string-array>
+    <string-array name="GBox_Cams">
+        <item>1. GBox</item>
+        <item>2. CS2GBox</item>
+        <item>3. GBox.Net</item>
+    </string-array>
+    <string-array name="GBox_Cams_Version">
+        <item>GBox 2.25</item>
+        <item>CS2GBox 3.00</item>
+        <item>GBox.Net 1.0-svn806</item>
+    </string-array>
+    <string-array name="Single_Cams">
+        <item>1. SBox</item>
+        <item>2. SCam</item>
+        <item>3. NewCS</item>
+        <item>4. CCcam</item>
+        <item>5. OSCam</item>
+        <item>6. WiCard</item>
+        <item>7. MultiCS</item>
+        <item>8. UniCam</item>
+        <item>9. BtkCam</item>
+        <item>10. DOSCam</item>
+        <item>11. MgCamd</item>
+        <item>12. OSCam YMod</item>
+        <item>13. OSCam HDSC</item>
+    </string-array>
+    <string-array name="Single_Cams_Versions">
+        <item>SBox 0.0.5-4-4</item>
+        <item>SCam 3.60</item>
+        <item>NewCS 1.71</item>
+        <item>CCcam 2.3.0</item>
+        <item>OSCam 1.20</item>
+        <item>WiCard 1.15 </item>
+        <item>MultiCS r77</item>
+        <item>UniCam 3.2.0027</item>
+        <item>BtkCam 0.86</item>
+        <item>DOSCam 0.19</item>
+        <item>MgCamd 1.38c</item>
+        <item>OSCam YMod V18T50</item>
+        <item>OSCam HDSC 60</item>
+    </string-array>
+    <string-array name="Original_Cams">
+        <item>1. VuCrypt</item>
+        <item>2. DGCrypt</item>
+        <item>3. DreamCrypt</item>
+    </string-array>
+    <string-array name="Original_Cams_Version">
+        <item>VuCrypt 1.1.1</item>
+        <item>DGCrypt 1.0s</item>
+        <item>DreamCrypt 1.2.3</item>
+    </string-array>
+    <string-array name="Twin_Cams_Dongle">
+        <item>1. Twiner</item>
+        <item>2. Twin2CS</item>
+        <item>3. Twin2CC</item>
+        <item>4. Twin Protocol</item>
+    </string-array>
+    <string-array name="Twin_Cams_Dongle_Version">
+        <item>Twiner 1.30a</item>
+        <item>Twin2CS 0.10</item>
+        <item>Twin2CC 1.03a</item>
+        <item>Twin Protocol 1.0</item>
+    </string-array>
+    <string-array name="Keys_SoftCam_Downloader">
+        <item>1. BISS Key Adder</item>
+        <item>2. Persian Keys Adder</item>
+        <item>3. AdelSat Keys Downloader</item>
+        <item>-4. Keys Downloader</item>
+        <item>5. SoftCam Downloader</item>
+        <item>6. CCcam Files Downloader</item>
+        <item>-7. CCcam.channelinfo to oscam.srvid Converter</item>
+        <item>8. Keys - SoftCam Converter (Requires Keys-SoftCam)</item>
+    </string-array>
+    <string-array name="Keys_Downloader">
+        <item>1. Uydu Keys</item>
+        <item>2. LuxSat Keys</item>
+        <item>3. MiniCat Keys</item>
+        <item>4. Techsat Keys</item>
+        <item>5. PandaSat Keys</item>
+        <item>6. SatAngeles Keys</item>
+        <item>7. DemoniSat Keys</item>
+        <item>8. SoftCamTV Keys</item>
+        <item>9. MasterElant Keys</item>
+        <item>10. NewNigma2 Keys</item>
+        <item>11. Dark Network Keys</item>
+    </string-array>
+    <string-array name="MiniCat_Keys">
+        <item>1. GBox Update</item>
+        <item>2. SCam Update</item>
+        <item>3. Bundle Update</item>
+        <item>4. Camd3 Update</item>
+        <item>5. CCcam Update</item>
+        <item>6. MgCamd Update</item>
+        <item>7. EvoCamd Update</item>
+        <item>8. NewCamd Update</item>
+    </string-array>
+    <string-array name="SatAngeles_Keys">
+        <item>1. Camd3 Update</item>
+        <item>2. EvoCamd Update</item>
+        <item>3. Emulator Pack Update</item>
+        <item>4. SCam-DcCamd Update</item>
+        <item>5. MgCamd-CCcam Update</item>
+    </string-array>
+    <string-array name="SoftCam_Downloader">
+        <item>1. GisClub SoftCam</item>
+        <item>2. MiniCat SoftCam</item>
+        <item>3. DVBFiles SoftCam</item>
+        <item>4. SatAngels SoftCam</item>
+        <item>5. DemoniSat SoftCam</item>
+        <item>6. SatSharing SoftCam</item>
+    </string-array>
+    <string-array name="CCcam_Files_Downloader">
+        <item>1. DZSat CCcam.channelinfo</item>
+        <item>2. IslaRemota CCcam.channelinfo</item>
+        <item>3. CCcamForum CCcam.channelinfo</item>
+        <item>4. Linuxsat-Support CCcam.channelinfo</item>
+        <item>-5. lamedb CCcam.channelinfo Creator</item>
+    </string-array>
+    <string-array name="CCcam_channelinfo_to_oscam_srvid_Converter">
+        <item>1. DZSat CCcam.channelinfo</item>
+        <item>2. IslaRemota CCcam.channelinfo</item>
+        <item>3. CCcamForum CCcam.channelinfo</item>
+        <item>4. Linuxsat-Support CCcam.channelinfo</item>
+        <item>-5. lamedb CCcam.channelinfo</item>
+    </string-array>
+    <string-array name="Keys_Softcam_Converter_Requires_Keys_Softcam">
+        <item>1. Xcam to MgCamd</item>
+        <item>2. EvoCamd to MgCamd</item>
+        <item>3. MgCamd to EvoCamd</item>
+        <item>4. MgCamd to NewCamd</item>
+        <item>5. NewCamd to MgCamd</item>
+    </string-array>
+    <string-array name="Channels_Settings_Downloader">
+        <item>1. AdelSat Settings</item>
+        <item>-2. Old Settings</item>
+        <item>3. New Settings</item>
+        <item>-4. Edit Channels - Settings</item>
+        <item>5. Add Online Persian Radio - TV Channels</item>
+        <item>6. User Settings Installer (UserSettings.zip)</item>
+    </string-array>
+    <string-array name="Old_Settings">
+        <item>1. RR Settings</item>
+        <item>2. Sin Settings</item>
+        <item>3. Likra Settings</item>
+        <item>4. Rytec Settings</item>
+        <item>5. AliSat Settings</item>
+        <item>6. Cajton Settings</item>
+        <item>7. Serjoga Settings</item>
+        <item>8. Catseye Settings</item>
+        <item>9. Dzunglaxx Settings</item>
+        <item>10. Marcus206 Settings</item>
+        <item>11. SGTFlipFlop Settings</item>
+        <item>12. Morpheus883 Settings</item>
+    </string-array>
+    <string-array name="New_Settings">
+        <item>1. Rat Settings</item>
+        <item>2. Dona Settings</item>
+        <item>3. Ciefp Settings</item>
+        <item>4. Tartar Settings</item>
+        <item>5. Cyrus Settings</item>
+        <item>6. SatMax Settings</item>
+        <item>7. Predrag Settings</item>
+        <item>8. Corvone Settings</item>
+        <item>9. Malimali Settings</item>
+        <item>10. Beli1910 Settings</item>
+        <item>11. SatVenus Settings</item>
+        <item>12. Vhannibal Settings</item>
+        <item>13. TeamDream Settings</item>
+    </string-array>
+    <string-array name="Remove_Channels_Settings">
+        <item>1. Remove Settings</item>
+        <item>2. Remove Channels</item>
+        <item>3. Reset Factory Defaults</item>
+        <item>4. Remove Current Channel</item>
+        <item>5. Data Channels Converter (Sky 19.2E)</item>
+    </string-array>
+    <string-array name="Add_Online_Persian_Radio_TV_Channels">
+        <item>1. Persian Online TV</item>
+        <item>2. Persian Online Radio</item>
+    </string-array>
+    <string-array name="Cables_Satellites_Terrestrial_XML_Downloader">
+        <item>1. Cables.XML (DVB-C)</item>
+        <item>2. Satellites.XML (DVB-S)</item>
+        <item>3. Terrestrial.XML (DVB-T)</item>
+    </string-array>
+    <string-array name="Cables_XML_DVB_C">
+        <item>1. Cables.XML - Official</item>
+        <item>2. Cables.XML - PaphosAL</item>
+        <item>-3. Cables.XML By Persian Prince</item>
+    </string-array>
+    <string-array name="Satellites_XML_DVB_S">
+        <item>1. Satellites.XML - WinTV</item>
+        <item>2. Satellites.XML - SatXML</item>
+        <item>3. Satellites.XML - Lyngsat</item>
+        <item>4. Satellites.XML - SatBeams</item>
+        <item>5. Satellites.XML - SatHunter</item>
+        <item>6. Satellites.XML - SatLoader</item>
+        <item>7. Satellites.XML - IslaRemota</item>
+        <item>8. Satellites.XML - FastSatFinder</item>
+        <item>9. Satellites.XML - DreamBoxTools</item>
+        <item>10. Satellites.XML - Turk Dreamworld</item>
+        <item>-11. Satellites.XML By Persian Prince </item>
+    </string-array>
+    <string-array name="Terrestrial_XML_DVB_T">
+        <item>1. Terrestrial.XML - Official</item>
+        <item>-2. Terrestrial.XML By Persian Prince</item>
+    </string-array>
+    <string-array name="Cleaner">
+        <item>1. Clear Cache</item>
+        <item>-2. Enable Spinner</item>
+        <item>3. Disable Spinner</item>
+        <item>-4. CF Cleaner - All Files-Folders</item>
+        <item>5. USB Cleaner - All Files-Folders</item>
+        <item>6. HDD Cleaner - All Files-Folders</item>
+        <item>7. Temp Cleaner - All Files-Folders</item>
+        <item>8. Keys Cleaner - All Keys-SoftCams</item>
+        <item>-9. Delete EPG</item>
+        <item>10. Delete Picons</item>
+        <item>11. Delete Timers</item>
+        <item>12. Delete TimeStamp</item>
+        <item>13. Delete Crash Logs</item>
+    </string-array>
+    <string-array name="Installer">
+        <item>1. CF Installer - IPK</item>
+        <item>2. URL Installer - IPK</item>
+        <item>3. USB Installer - IPK</item>
+        <item>4. HDD Installer - IPK</item>
+        <item>5. Temp Installer - IPK</item>
+        <item>-6. Boot Logo Changer (/tmp/Logo.mvi)</item>
+    </string-array>
+    <string-array name="Extractor_Coverter">
+        <item>1. IPK</item>
+        <item>2. NFI</item>
+        <item>3. ZIP</item>
+        <item>4. RAR</item>
+        <item>5. TAR.GZ</item>
+        <item>-6. USB Image to NFI Image Converter</item>
+    </string-array>
+    <string-array name="Software_Hardware_Information">
+        <item>1. Software Information</item>
+        <item>-2. Hardware Information</item>
+    </string-array>
+    <string-array name="Software_Information">
+        <item>1. Date</item>
+        <item>2. Swap</item>
+        <item>3. System</item>
+        <item>4. UpTime</item>
+        <item>5. Activity</item>
+        <item>6. Emulator</item>
+        <item>7. Host Name</item>
+        <item>8. Proccess List</item>
+        <item>9. File Systems</item>
+        <item>10. Channel CaID</item>
+        <item>11. Kernel Version</item>
+        <item>12. Kernel Information</item>
+        <item>13. Installed Packages Information</item>
+    </string-array>
+    <string-array name="Installed_Packages_Information">
+        <item>1. Python</item>
+        <item>2. GST Plugins</item>
+        <item>3. DVB Modules</item>
+        <item>4. Enigma2 Skins</item>
+        <item>5. Kernel Modules</item>
+        <item>6. 4L DVB Modules</item>
+        <item>7. Enigma2 Plugins</item>
+        <item>8. Embeded GLIBC</item>
+        <item>9. Hardware Firmwares</item>
+        <item>10. Second Stage Boot Loader</item>
+    </string-array>
+    <string-array name="Hardware_Information">
+        <item>1. CPU</item>
+        <item>2. MAC</item>
+        <item>3. Tuner</item>
+        <item>4. Memory</item>
+        <item>5. Chipset</item>
+        <item>6. Free Space</item>
+        <item>7. Free Memory</item>
+        <item>8. Kernel Modules</item>
+        <item>-9. HDD Performance</item>
+        <item>10. Internet Performance</item>
+        <item>11. Speed Test for Mounted Storages</item>
+    </string-array>
+    <string-array name="HDD_Performance">
+        <item>1. HDD Status</item>
+        <item>2. HDD Information</item>
+        <item>3. HDD Temperature</item>
+    </string-array>
+    <string-array name="Internet_Performance">
+        <item>1. Ping</item>
+        <item>2. Netstat</item>
+        <item>3. NS Lookup</item>
+        <item>4. Trace Route</item>
+        <item>5. What is My IP</item>
+        <item>6. Reset network</item>
+        <item>7. Use Open DNS - Temporary</item>
+    </string-array>
+    <string-array name="FontChanger_DejaVuSans_2_33">
+        <item>1. Desired Font</item>
+        <item>2. FreeSerif Font</item>
+        <item>3. DejaVuSans Font</item>
+        <item>4. Read Before Doing Anything</item>
+    </string-array>
+    <string-array name="Speed_Test_for_Mounted_Storages">
+        <item>1. CF Test</item>
+        <item>2. USB Test</item>
+        <item>3. HDD Test</item>
+        <item>4. Network Storage Test</item>
+    </string-array>
+    <string-array name="Persian_Empire_Enigma2_Images_Tweaks_Fixes">
+        <item>1. Fix Spinner</item>
+        <item>2. Fix Boot Logo 720p</item>
+        <item>3. Fix Boot Logo 1080p</item>
+        <item>-4. Default Channels Audio Configuration</item>
+        <item>-5. Audio/Video PID Changer (HEX/Decimal)</item>
+        <item>-6. Convert Encoding To UTF-8 For All srt-SRT Subtitles</item>
+        <item>-7. PPTP VPN for Persian Empire Images</item>
+        <item>8. Open VPN for Persian Empire Images</item>
+        <item>-9. Take High Quality Screenshot</item>
+    </string-array>
+    <string-array name="Default_Channels_Audio_Configuration">
+        <item>1. English Audio Config Adder</item>
+        <item>2. Persian Audio Config Adder</item>
+    </string-array>
+    <string-array name="Audio_Video_PID_Changer">
+        <item>1. Audio PID Changer (HEX)</item>
+        <item>2. Audio PID Changer (Decimal)</item>
+        <item>3. Video PID Changer (HEX)</item>
+        <item>4. Video PID Changer (Decimal)</item>
+    </string-array>
+    <string-array name="PPTP_VPN_for_Persian_Empire_Images">
+        <item>1. Stop VPN</item>
+        <item>2. Restart VPN</item>
+        <item>3. PPTP VPN Account Details</item>
+    </string-array>
+    <string-array name="Take_High_Quality_Screenshot">
+        <item>1. Grab OSD</item>
+        <item>2. Grab Full</item>
+    </string-array>
+    <string-array name="About_Persian_Palace_PersianPros_org">
+        <item>1. Information</item>
+        <item>2. Change Logs</item>
+        <item>3. Last Server Update</item>
+    </string-array>
+
+</resources>

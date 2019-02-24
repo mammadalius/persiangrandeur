@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Android\\Android Projects\\persiangrandeur\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v14\\values-v14.xml",
+            "map": [
+                {
+                    "source": "C:\\Android\\Android Projects\\persiangrandeur\\app\\src\\main\\res\\values-v14\\styles.xml",
+                    "from": {
+                        "startLines": "6,2",
+                        "startColumns": "4,4",
+                        "startOffsets": "169,17",
+                        "endLines": "8,4",
+                        "endColumns": "12,12",
+                        "endOffsets": "340,163"
+                    },
+                    "to": {
+                        "startLines": "2,5",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,231",
+                        "endLines": "4,7",
+                        "endColumns": "12,12",
+                        "endOffsets": "226,377"
+                    }
+                }
+            ]
+        }
+    ]
+}

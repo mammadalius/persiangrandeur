@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.persianpros.mammadalius"
+    android:versionCode="27"
+    android:versionName="rc7.r175" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="28" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="org.persianpros.mammadalius.App"
+        android:allowBackup="false"
+        android:debuggable="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:testOnly="true"
+        android:theme="@style/MyTheme" >
+        <activity
+            android:name="org.persianpros.mammadalius.Main"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="org.persianpros.mammadalius.GrandeurActivity" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.AboutDialog"
+            android:label="About"
+            android:theme="@android:style/Theme.Holo.Light.Dialog" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.items.I001_ToolsActivity"
+            android:label="Tools" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.items.I002_BackupRestoreActivity"
+            android:label="Backup/Restore" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.items.I003_EmulatorManagerActivity"
+            android:label="Emulator Manager" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.items.I004_KeysSoftcamDownloaderActivity"
+            android:label="Keys-Softcam Downloader" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.items.I005_ChannelsSettingsDownloaderActivity"
+            android:label="Channels-Settings Downloader" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.items.I006_CablesSatellitesXMLDownloaderActivity"
+            android:label="Cables - Satellites - Terrestrial XML Downloader" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.items.I007_CleanerActivity"
+            android:label="Cleaner" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.items.I008_InstallerActivity"
+            android:label="Installer" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.items.I009_ExtractorConverterActivity"
+            android:label="Extractor - Converter" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.items.I010_SoftwareHardwareInformationActivity"
+            android:label="Software - Hardware Information" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.items.I012_PersianEmpireEnigma2ImageActivity"
+            android:label="Persian Empire Enigma2 Image (Tweaks-Fixes)" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.items.I1_01CHMODActivity"
+            android:label="CHMOD" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.items.I1_04PartitionManagerActivity"
+            android:label="Partition Manager" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.items.I1_04_3FormatUSBActivity"
+            android:label="Format USB" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.items.I1_04_4FormatHDDActivity"
+            android:label="Format HDD" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.items.I1_06IPKServerManagerActivity"
+            android:label="IPK Server Manager" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.items.I1_07PiconPathManagerActivity"
+            android:label="Picon Path Manager" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.items.I1_08PluginPathManagerActivity"
+            android:label="Plugin Path Manager" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.items.I1_09TimeshiftPathManagerActivity"
+            android:label="Timeshift Path Manager" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.items.I1_10MACAddressChangerActivity"
+            android:label="MAC Address Changer" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.items.I2_1PluginActivity"
+            android:label="Plugin" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.items.I2_2SkinPiconActivity"
+            android:label="Skin Picon" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.items.I2_3CCcamSettingsActivity"
+            android:label="CCcam Settings" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.items.I2_4Enigma2SettingsActivity"
+            android:label="Enigma2 Settings" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.items.I2_8DropboxActivity"
+            android:label="DropBox Online Backup/Restore" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.items.I2_8_1SetupDropBoxAccountActivity"
+            android:label="Setup DropBox Account" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.items.I2_8_2UseDropBoxActivity"
+            android:label="Use DropBox" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.items.I3_1OldCamsActivity"
+            android:label="Old Cams" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.items.I3_1_1RqCamsActivity"
+            android:label="Rq Cams" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.items.I3_2MultiCamsActivity"
+            android:label="Multi Cams" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.items.I3_2_3SBoxActivity"
+            android:label="SBox (Requires CCcam, MgCamd)" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.items.I3_2_4OSCamActivity"
+            android:label="OSCam (Requires CCcam, MgCamd, SBox)" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.items.I3_2_4n_DOSCamActivity"
+            android:label="DOSCam (Requires CCcam, MgCamd, SBox)" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.items.I3_2_5OSCamYModActivity"
+            android:label="OSCam YMod (Requires CCcam, MgCamd, SBox)" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.items.I3_2_6OSCamHDSCActivity"
+            android:label="OSCam HDSC (Requires CCcam, MgCamd, SBox)" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.items.I3_2_6NewCSActivity"
+            android:label=" NewCS (Requires Camd3, CCcam, EvoCamd, Mbox, MgCamd)" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.items.I3_3GBoxCamsActivity"
+            android:label="GBox Cams" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.items.I3_4SingleCamsActivity"
+            android:label="Single Cams" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.items.I3_5OriginalCamsActivity"
+            android:label="Original Cams" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.items.I3_6TwinCamsActivity"
+            android:label="Twin Cams" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.items.I4_03KeysDownloaderActivity"
+            android:label="Keys Downloader" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.items.I4_03_2MiniCatActivity"
+            android:label="Mini Cat" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.items.I4_04SoftCamDownloaderActivity"
+            android:label="SoftCam Downloader" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.items.I4_05CCcamFilesDownloaderActivity"
+            android:label="CCcam Files Downloader" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.items.I4_06CCcamChannelInfoConverterActivity"
+            android:label="CCcam.channelinfo to oscam.srvid Converter" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.items.I4_07SatAngelesKeysActivity"
+            android:label="SatAngeles Keys" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.items.I4_07KeysSoftCamConverterActivity"
+            android:label="Keys-SoftCam Converter (Requires Keys-SoftCam)" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.items.I5_2OldSettingsActivity"
+            android:label="Old Settings" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.items.I5_3NewSettingsActivity"
+            android:label="New Settings" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.items.I5_4RemoveChannelsSettingsActivity"
+            android:label="Edit Channels - Settings" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.items.I5_5AddOnlinePersianChannelsActivity"
+            android:label="Add Online Persian Radio - TV Channels" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.items.I6_1CablesXMLDVBCActivity"
+            android:label="Cables.XML (DVB-C)" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.items.I6_2SatellitesXMLDVBSActivity"
+            android:label="Satellites.XML (DVB-S)" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.items.I6_3TerrestrialXMLDVBTActivity"
+            android:label="Terrestrial.XML (DVB-T)" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.items.I10_1SoftwareInformationActivity"
+            android:label="Software Information" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.items.I10_1_12InstalledPackagesInformationActivity"
+            android:label="Installed Packages Information" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.items.I10_2HardwareInformationActivity"
+            android:label="Hardware Information" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.items.I10_2_8HDDPerformanceActivity"
+            android:label="HDD Performance" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.items.I10_2_9InternetPerformanceActivity"
+            android:label="Internet Performance" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.items.I10_2_10SpeedTestActivity"
+            android:label="Speed Test for Mounted Storages" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.items.I011_FontChangerActivity"
+            android:label="Font Changer" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.items.I12_4DefaultChannelsAudioConfigurationActivity"
+            android:label="Default Channels Audio Configuration" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.BissKeyAdderActivity"
+            android:label="BISS Key Adder"
+            android:theme="@android:style/Theme.Holo.Light.Dialog" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.SharedPrefs"
+            android:label="Settings"
+            android:theme="@android:style/Theme.Holo" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.ResultDialog"
+            android:theme="@android:style/Theme.Holo.Light.Dialog" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.DropboxConfirmDialog"
+            android:label="Confirm"
+            android:theme="@android:style/Theme.Holo" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.GetPathActivity"
+            android:theme="@android:style/Theme.Holo.Light.Dialog" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.GetInputActivity"
+            android:theme="@android:style/Theme.Holo.Light.Dialog" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.items.I12_05PIDActivity"
+            android:label="Audio/Video PID Changer (HEX/Decimal)" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.items.I12_7VPNActivity"
+            android:label="PPTP VPN For Persian Empire Images" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.items.I12_8TakeHighQualityScreenshotActivity"
+            android:label="Take High Quality Screenshot" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.ClineActivity"
+            android:theme="@android:style/Theme.Holo.Light.Dialog" >
+        </activity>
+        <activity
+            android:name="org.persianpros.mammadalius.VPNActivity"
+            android:theme="@android:style/Theme.Holo.Light.Dialog" >
+        </activity>
+
+        <provider
+            android:name="com.android.tools.ir.server.InstantRunContentProvider"
+            android:authorities="org.persianpros.mammadalius.com.android.tools.ir.server.InstantRunContentProvider"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

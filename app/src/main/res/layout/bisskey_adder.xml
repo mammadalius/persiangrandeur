@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	tools:context=".BissKeyAdderActivity" >
+
+	<TextView
+		android:id="@+id/tvDescription"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="4dp"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="4dp"
+		android:layout_marginTop="4dp"
+		android:text="@string/BissKeyTitle" />
+
+	<EditText
+		android:id="@+id/etCode"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="4dp"
+		android:ems="10"
+		android:inputType="number"
+		android:maxLength="16" >
+
+		<requestFocus />
+	</EditText>
+
+	<View
+		android:id="@+id/View01"
+		android:layout_width="wrap_content"
+		android:layout_height="0.1dp"
+		android:background="@drawable/dividergradient" />
+
+	<RelativeLayout
+		android:id="@+id/rlWords"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="4dp" >
+
+		<Button
+			android:id="@+id/btnF"
+			style="?android:attr/buttonStyleSmall"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentRight="true"
+			android:layout_alignParentTop="true"
+			android:text="F"
+			tools:ignore="HardcodedText" />
+
+		<Button
+			android:id="@+id/btnE"
+			style="?android:attr/buttonStyleSmall"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentTop="true"
+			android:layout_toLeftOf="@+id/btnF"
+			android:text="E"
+			tools:ignore="HardcodedText" />
+
+		<Button
+			android:id="@+id/btnD"
+			style="?android:attr/buttonStyleSmall"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentTop="true"
+			android:layout_toLeftOf="@+id/btnE"
+			android:text="D"
+			tools:ignore="HardcodedText" />
+
+		<Button
+			android:id="@+id/btnA"
+			style="?android:attr/buttonStyleSmall"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentLeft="true"
+			android:layout_alignParentTop="true"
+			android:text="A"
+			tools:ignore="HardcodedText" />
+
+		<Button
+			android:id="@+id/btnB"
+			style="?android:attr/buttonStyleSmall"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentTop="true"
+			android:layout_toRightOf="@+id/btnA"
+			android:text="B"
+			tools:ignore="HardcodedText" />
+
+		<Button
+			android:id="@+id/btnC"
+			style="?android:attr/buttonStyleSmall"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentTop="true"
+			android:layout_toRightOf="@+id/btnB"
+			android:text="C"
+			tools:ignore="HardcodedText" />
+	</RelativeLayout>
+
+	<View
+		android:id="@+id/view1"
+		android:layout_width="wrap_content"
+		android:layout_height="2dp"
+		android:background="@drawable/dividergradient" />
+
+	<Button
+		android:id="@+id/btnBissOK"
+		android:layout_width="75dp"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:text="OK"
+		tools:ignore="HardcodedText" />
+
+</LinearLayout>

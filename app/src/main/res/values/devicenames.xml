@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- <string-array name="STB_Names"> -->
+    <!-- <item>Dreambox 500hd</item> -->
+    <!-- <item>Dreambox 800</item> -->
+    <!-- <item>Dreambox 800se</item> -->
+    <!-- <item>Dreambox 7020hd</item> -->
+    <!-- <item>Dreambox8000</item> -->
+    <!-- <item>Vu+ Duo</item> -->
+    <!-- <item>Vu+ Duo2</item> -->
+    <!-- <item>Vu+ Solo</item> -->
+    <!-- <item>Vu+ Solo2</item> -->
+    <!-- <item>Vu+ Ultimo</item> -->
+    <!-- <item>Vu+ Uno</item> -->
+    <!-- <item>Xtrend ET-4x00</item> -->
+    <!-- <item>Xtrend ET-5x00</item> -->
+    <!-- <item>Xtrend ET-6x00</item> -->
+    <!-- <item>Xtrend ET-9x00</item> -->
+    <!-- <item>Gigablue 800se</item> -->
+    <!-- <item>Gigablue 800solo</item> -->
+    <!-- <item>Gigablue 800ue</item> -->
+    <!-- <item>Gigablue quad</item> -->
+    <!-- <item>Azbox hd</item> -->
+    <!-- <item>Azbox me</item> -->
+    <!-- <item>Azbox mini me</item> -->
+    <!-- <item>ini-x000</item> -->
+    <!-- <item>ini-1000</item> -->
+    <!-- <item>ini-3000</item> -->
+    <!-- <item>ini-5000</item> -->
+    <!-- <item>ini-7000</item> -->
+    <!-- <item>Venton hdx</item> -->
+    <!-- <item>Venton hde</item> -->
+    <!-- <item>Mara m9</item> -->
+    <!-- <item>Odin m9</item> -->
+    <!-- <item>Xpert Xp1000</item> -->
+    <!-- <item>Technomate ios 100</item> -->
+    <!-- <item>Technomate ios 200</item> -->
+    <!-- <item>Technomate ios 300</item> -->
+    <!-- <item>Technomate tmtwin</item> -->
+    <!-- <item>Technomate tm2toe</item> -->
+    <!-- <item>Technomate tmsingle</item> -->
+    <!-- <item>Technomate tmtwinoe</item> -->
+    <!-- </string-array> -->
+    <string-array name="STB_HostNames">
+        <item>dm500hd</item>
+        <item>dm500hdv2</item>
+        <item>dm7020hd</item>
+        <item>dm800</item>
+        <item>dm800se</item>
+        <item>dm800sev2</item>
+        <item>dm8000</item>
+        <item>vuduo</item>
+        <item>vuduo2</item>
+        <item>vusolo</item>
+        <item>vusolo2</item>
+        <item>vuultimo</item>
+        <item>vuuno</item>
+        <item>azboxhd</item>
+        <item>azboxme</item>
+        <item>azboxminime</item>
+        <item>et1x000</item>
+        <item>et4x00</item>
+        <item>et5x00</item>
+        <item>et6x00</item>
+        <item>et8x00</item>
+        <item>et9x00</item>
+        <item>gb800se</item>
+        <item>gb800seplus</item>
+        <item>gb800solo</item>
+        <item>gb800ue</item>
+        <item>gb800ueplus</item>
+        <item>gbquad</item>
+        <item>gbquadplus</item>
+        <item>inihde</item>
+        <item>inihdp</item>
+        <item>ventonhdx</item>
+        <item>odinm7</item>
+        <item>odinm9</item>
+        <item>ixusszero</item>
+        <item>ixussone</item>
+        <item>ixussduo</item>
+        <item>ixusstriple</item>
+        <item>xp1000</item>
+        <item>ebox5000</item>
+        <item>ebox5100</item>
+        <item>ebox7358</item>
+        <item>eboxlumi</item>
+        <item>ios100</item>
+        <item>ios200</item>
+        <item>ios300</item>
+        <item>tm2toe</item>
+        <item>tmnano2t</item>
+        <item>tmnanooe</item>
+        <item>tmsingle</item>
+        <item>tmtwinoe</item>
+        <item>e3hd</item>
+        <item>mediabox</item>
+        <item>optimussos1</item>
+        <item>optimussos2</item>        
+        <item>su980</item>
+        <item>sogno8800hd</item>
+        <item>cube</item>
+        <item>force1</item>
+        <item>enfinity</item>
+    </string-array>
+    <string-array name="STB_Names">
+       <item>dm500hd</item>
+        <item>dm500hdv2</item>
+        <item>dm7020hd</item>
+        <item>dm800</item>
+        <item>dm800se</item>
+        <item>dm800sev2</item>
+        <item>dm8000</item>
+        <item>vuduo</item>
+        <item>vuduo2</item>
+        <item>vusolo</item>
+        <item>vusolo2</item>
+        <item>vuultimo</item>
+        <item>vuuno</item>
+        <item>azboxhd</item>
+        <item>azboxme</item>
+        <item>azboxminime</item>
+        <item>et1x000</item>
+        <item>et4x00</item>
+        <item>et5x00</item>
+        <item>et6x00</item>
+        <item>et8x00</item>
+        <item>et9x00</item>
+        <item>gb800se</item>
+        <item>gb800seplus</item>
+        <item>gb800solo</item>
+        <item>gb800ue</item>
+        <item>gb800ueplus</item>
+        <item>gbquad</item>
+        <item>gbquadplus</item>
+        <item>inihde</item>
+        <item>inihdp</item>
+        <item>ventonhdx</item>
+        <item>odinm7</item>
+        <item>odinm9</item>
+        <item>ixusszero</item>
+        <item>ixussone</item>
+        <item>ixussduo</item>
+        <item>ixusstriple</item>
+        <item>xp1000</item>
+        <item>ebox5000</item>
+        <item>ebox5100</item>
+        <item>ebox7358</item>
+        <item>eboxlumi</item>
+        <item>ios100</item>
+        <item>ios200</item>
+        <item>ios300</item>
+        <item>tm2toe</item>
+        <item>tmnano2t</item>
+        <item>tmnanooe</item>
+        <item>tmsingle</item>
+        <item>tmtwinoe</item>
+        <item>e3hd</item>
+        <item>mediabox</item>
+        <item>optimussos1</item>
+        <item>optimussos2</item>        
+        <item>su980</item>
+        <item>sogno8800hd</item>
+        <item>cube</item>
+        <item>force1</item>
+        <item>enfinity</item>
+    </string-array>
+
+</resources>

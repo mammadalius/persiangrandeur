@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/ScrollView1"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".AboutDialog" >
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical" >
+
+		<ImageView
+			android:layout_width="58dp"
+			android:layout_height="58dp"
+			android:layout_gravity="center"
+			android:layout_marginTop="10dp"
+			android:contentDescription="App icon"
+			android:src="@drawable/ic_launcherx" />
+
+		<ImageView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:src="@drawable/persian_pros" />
+
+		<TextView
+			android:id="@+id/tvPersianGrandeur"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_marginBottom="10dp"
+			android:text="Persian Grandeur"
+			android:textAppearance="?android:attr/textAppearanceLarge" />
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="4dp"
+			android:layout_marginLeft="4dp"
+			android:layout_marginRight="4dp"
+			android:layout_marginTop="10dp"
+			android:orientation="horizontal" >
+
+			<TextView
+				android:id="@+id/tvBuildDate"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_weight="4.29"
+				android:text="Build Date: 2012/11/15"
+				android:textAppearance="?android:attr/textAppearanceSmall" />
+
+			<ProgressBar
+				android:id="@+id/pgGetVersion"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:visibility="invisible" />
+
+			<Button
+				android:id="@+id/btnCheckForUpdate"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:text="@string/Check_for_Update"
+				android:textAppearance="?android:attr/textAppearanceSmall"
+				android:textColor="@android:color/secondary_text_light" />
+
+		</LinearLayout>
+
+		<LinearLayout
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="right"
+		    android:layout_marginBottom="4dp"
+		    android:layout_marginLeft="4dp"
+		    android:layout_marginRight="4dp"
+		    android:orientation="horizontal" >
+
+		    <ProgressBar
+		        android:id="@+id/pgGetReleaseNotes"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:visibility="invisible" />
+
+		    <Button
+		        android:id="@+id/btnReleaseNotes"
+		        android:layout_width="130dp"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center"
+		        android:text="@string/ReleaseNotes"
+		        android:textAppearance="?android:attr/textAppearanceSmall"
+		        android:textColor="@android:color/secondary_text_light" />
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="4dp"
+			android:layout_marginLeft="4dp"
+			android:layout_marginRight="4dp"
+			android:layout_marginTop="10dp"
+			android:background="#DDD"
+			android:orientation="vertical" >
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_margin="4dp"
+				android:text="Designed and Developed by: MohammadAli J (mammadalius)"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:textColor="#333" />
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_margin="4dp"
+				android:text="Email: mammadalius@yahoo.com"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:textColor="#333" />
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_margin="4dp"
+				android:text="Special Thanks to: Persian Prince"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:textColor="#333" />
+		</LinearLayout>
+
+		<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_marginLeft="4dp"
+		    android:text="Our Links:"
+		    android:textAppearance="?android:attr/textAppearanceSmall"
+		    android:textColor="#000" />
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="4dp"
+			android:layout_marginLeft="4dp"
+			android:layout_marginRight="4dp"
+			android:layout_marginTop="4dp"
+			android:background="#DDD"
+			android:orientation="vertical" >
+
+			<LinearLayout
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="5dp" >
+
+				<ImageView
+					android:id="@+id/imageView3"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:src="@drawable/ic_launcher48x" />
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:layout_marginTop="5dp"
+					android:linksClickable="true"
+					android:text="e2pe.com"
+					android:textAppearance="?android:attr/textAppearanceSmall" />
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="5dp" >
+
+				<ImageView
+					android:id="@+id/ImageView01"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:src="@drawable/skype" />
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_margin="5dp"
+					android:text="PersianPros"
+					android:textAppearance="?android:attr/textAppearanceSmall" />
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="5dp" >
+
+				<ImageView
+					android:id="@+id/imageView5"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:src="@drawable/twitter" />
+
+				<TextView
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_margin="5dp"
+				    android:linksClickable="true"
+				    android:text="@persianpros"
+				    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="5dp" >
+
+				<ImageView
+					android:id="@+id/imageView4"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:src="@drawable/facebook" />
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_margin="5dp"
+					android:linksClickable="true"
+					android:text="fb.com/persianpros"
+					android:textAppearance="?android:attr/textAppearanceSmall" />
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="5dp" >
+
+				<ImageView
+					android:id="@+id/imageView6"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:src="@drawable/youtube" />
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_margin="5dp"
+					android:linksClickable="true"
+					android:text="youtube.com/persianpros"
+					android:textAppearance="?android:attr/textAppearanceSmall" />
+			</LinearLayout>
+		</LinearLayout>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="4dp"
+			android:layout_marginTop="10dp"
+			android:text="Our Emails:"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:textColor="#000" />
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="4dp"
+			android:layout_marginLeft="4dp"
+			android:layout_marginRight="4dp"
+			android:layout_marginTop="4dp"
+			android:background="#DDD"
+			android:orientation="vertical" >
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_margin="5dp"
+				android:text="persianpros@live.com"
+				android:textAppearance="?android:attr/textAppearanceSmall" />
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_margin="5dp"
+				android:text="persianpros@gmail.com"
+				android:textAppearance="?android:attr/textAppearanceSmall" />
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_margin="5dp"
+				android:text="persianpros@yahoo.com"
+				android:textAppearance="?android:attr/textAppearanceSmall" />
+		</LinearLayout>
+
+		<Button
+			android:id="@+id/btnCloseAbout"
+			style="?android:attr/buttonStyleSmall"
+			android:layout_width="104dp"
+			android:layout_height="0dp"
+			android:layout_gravity="center"
+			android:layout_weight="0.23"
+			android:text="Close" />
+	</LinearLayout>
+
+</ScrollView>
